@@ -54,7 +54,7 @@ Total Tests: 8
 ### Test Artifacts
 Everytime test(s) are executed using the pytest command, a separate folder bearing a timestamp is created for that test-run inside TestRuns\ directory. All the logs, screenshots and test report generated during the test-run can be found in this directory.
 
-# Framework Features
+## Framework Features
 - Modular
     - Web Pages have been represented through a Page Object Model (POM).
     - No webdriver api in actual tests. Tests are created by only using aptly named functions. API is restricted to pages and elements classes.
