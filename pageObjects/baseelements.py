@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import TimeoutException
 
-default_timeout = 30  # in seconds, for webdriver explicit wait
+default_timeout = 45  # in seconds, for webdriver explicit wait
 
 
 class BaseElement:
