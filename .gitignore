@@ -1,0 +1,11 @@
+venv/
+.idea/
+*.pyc
+TestRuns/
+report.html
+assets/
+cred
+report_location.txt
+geckodriver.log
+.pytest_cache/
+
