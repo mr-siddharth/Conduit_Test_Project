@@ -12,7 +12,7 @@ pipeline {
         stage('SignIn Tests') {
           agent {
             node {
-              label 'master'
+              label 'windows'
             }
 
           }
@@ -24,7 +24,7 @@ pipeline {
         stage('Create New Article Tests') {
           agent {
             node {
-              label 'windows_node'
+              label 'windows'
             }
 
           }
@@ -33,18 +33,6 @@ pipeline {
           }
         }
 
-      }
-    }
-
-    stage('Deploy to Staging') {
-      steps {
-        echo 'Deploy to Staging'
-      }
-    }
-
-    stage('Deploy to Production') {
-      steps {
-        input 'Deploy to Production?'
       }
     }
 
