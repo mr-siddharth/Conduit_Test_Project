@@ -17,7 +17,7 @@ pipeline {
 
           }
           steps {
-            bat 'pytest -vs testCases/test_signin.py'
+            bat 'pytest -vs testCases/test_signin.py --email testuser@iptiq.com --password test1234'
           }
         }
 
@@ -29,7 +29,7 @@ pipeline {
 
           }
           steps {
-            bat 'pytest -vs testCases/test_create_new_article.py'
+            bat 'pytest -vs testCases/test_create_new_article.py --email testuser@iptiq.com --password test1234'
           }
         }
 
