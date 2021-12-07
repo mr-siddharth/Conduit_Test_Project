@@ -1,12 +1,6 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
-      steps {
-        echo 'No Build Step Required'
-      }
-    }
-
     stage('Tests') {
       parallel {
         stage('SignIn Tests') {
